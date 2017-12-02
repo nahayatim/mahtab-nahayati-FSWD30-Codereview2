@@ -1,0 +1,98 @@
+* {
+  font-family: Arial;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  height: 100px;
+  background: #00008B ;
+}
+
+#logo {
+  float: left;
+  margin: 20px;
+}
+
+header h3 {
+  line-height: 5;
+  color: white
+}
+
+body {
+  background:#D3D3D3;
+}
+
+article {
+  width: 40%;
+  padding: 2.5%;
+}
+
+.left {
+  float: left;background: white;
+  border: 1px solid #696969;
+}
+
+.right {
+  float: right; background: white;
+  border: 1px solid #696969;
+}
+
+article img {
+  width: 100%;
+}
+
+.text{margin: 10px ;
+
+        /*line-height: 400%; 
+      
+      letter-spacing: 3px;
+      width: 100%;*/
+}
+
+/*.difprice{
+
+}*/
+
+
+
+
+
+.right img {
+
+}
+
+.product{
+  display: flex;
+  flex-flow: row;
+  justify-content:center ;
+}
+    /*article{
+  background: white;
+  border: 1px solid #696969;
+}*/
+
+#difprice{border-radius: 12px;
+       /* height: 20px; 
+        width:100px ;
+        background-color: #1E90FF ; 
+        color: white;
+         text-align: center;
+         display: inline;
+        font-size: 20px;
+        align-items: center;*/
+
+
+ height:50px; 
+    width:200px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+    background-color: #1E90FF ;
+    color: white;
+   font-size: 20px;
+}
